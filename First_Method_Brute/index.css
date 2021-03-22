@@ -1,0 +1,56 @@
+#cf1_image {
+	margin: auto;
+	width: 10%;
+	height: 500px;
+	overflow: hidden;
+	max-width: initial;
+	/* border: 2px solid black; */
+	transition: background-image 1s ease-in-out;
+	background-image: url("");
+	background-repeat: no-repeat;
+	background-size: auto;
+}
+
+#cf2_image {
+	margin: auto;
+	width: 80%;
+	/* border: 2px solid black; */
+	height: 500px;
+	transition: background-image 1s ease-in-out;
+	background-image: url("./images/cat-nose.jpg");
+	background-repeat: no-repeat;
+	background-size: 945px 500px;
+}
+
+#cf3_image {
+	margin: auto;
+	width: 10%;
+	height: 500px;
+	overflow: hidden;
+	max-width: initial;
+	/* border: 2px solid black; */
+	transition: background-image 1s ease-in-out;
+	background-image: url("./images/contrail.jpg");
+	background-repeat: no-repeat;
+	background-size: 1046px 500px;
+}
+
+.silder {
+	height: 30%;
+	width: 90%;
+	margin: auto;
+	display: flex;
+	flex-direction: row;
+	gap: 10px;
+}
+
+#btn {
+	width: 80%;
+	margin: auto;
+}
+
+.btnproperty,
+#Totalcounter,
+#counter {
+	display: inline;
+}
